@@ -1,0 +1,67 @@
+@keyframes one{
+    0%{font-size: 0px;}
+    100%{font-size: 50px}
+}
+
+.qq{
+    animation-name: one;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite
+}
+
+@keyframes two{
+    from {position: relative; left: -1000px;}
+    to {position: relative; left: 100px;}
+}
+
+.oo {
+    animation-name: two;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes three{
+    0%{color: aqua;}
+    100%{color: red;}
+}
+
+.tt {
+    font-size: 100px;
+    color: red;
+    animation-name: three;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mymove {
+    0%   {top: 0px; left: 0px; background: aqua;}
+    100% {top: 0px; left: 0px; background: red;}
+  }
+
+  .grad1 {
+    background-size: 400%;
+    animation: mymove 7s infinite alternate;
+}
+
+
+
+em {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    line-height: 300%;
+    width: 405;
+    margin: 5%;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 25px;
+    font-weight: 1000;
+}
+
+
+
+

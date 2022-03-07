@@ -1,0 +1,62 @@
+
+
+
+
+em { 
+    color: rgba(105, 85, 28, 0.685);
+}
+
+
+
+
+.bl {
+    border: 1px solid rgb(0, 0, 0);
+    width: 26%
+}
+
+
+
+div.bl {
+    line-height: 2;
+
+}
+
+
+div {
+    margin-inline-start: 100px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+
+  .font {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    line-height: 300%;
+    border: 15px solid rgba(0, 0, 0, 0.418);
+    width: 405;
+    margin: 5%;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 25px;
+    font-weight: 1000;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+

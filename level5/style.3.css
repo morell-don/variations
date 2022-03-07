@@ -1,0 +1,62 @@
+
+
+em {
+    color: black;
+}
+
+.red { 
+    color: red;
+}
+
+.aqua {
+    color: aqua;
+}
+
+
+
+
+  .font {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 100px;
+    line-height: 300%;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bolder;
+    margin-right: 0%;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+.grad1 {
+    background-size: 400%;
+    animation: mymove 7s infinite alternate;
+}
+
+
+@keyframes mymove {
+    0%   {top: 0px; left: 0px; background: aqua;}
+    100% {top: 0px; left: 0px; background: red;}
+  }

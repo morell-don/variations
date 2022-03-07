@@ -1,0 +1,249 @@
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+   
+}
+
+
+
+.fontcold{
+    font-family: 'Frijole', cursive;
+    color: aqua;
+    font-size: 75px;
+
+}
+
+.fonthighlight{
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: black;
+}
+
+.fontfire{
+    font-family: 'Tangerine', cursive;
+    font-size: 100px;
+    color: rgb(255, 4, 4);
+    font-weight: bolder;
+}
+
+
+
+.s1 {
+    text-align: left;
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: black;
+    font-size: 100px;
+}
+
+.s1-2 {
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    font-family: 'Tangerine', cursive;
+    font-size: 300px;
+    color: rgb(255, 4, 4);
+    font-weight: bolder;
+}
+
+
+p {
+    position: relative;
+    animation: fast 5s infinate;
+    font-family: 'Faster One', cursive;
+    text-transform: capitalize;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+.s2-2 {
+    font-family: 'Frijole', cursive;
+    color: aqua;
+    font-size: 200px;
+    text-align: center;
+}
+
+.s3 {
+    position: absolute;
+    top: 1300px;
+    left: 800px;
+    font-family: 'Syne Mono', monospace;
+    font-size: 100px;
+    color: rgb(5, 4, 4);
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.em {
+    text-decoration: line-through;
+    font-size: 150px;
+    color: red;
+    position: absolute;
+    font-family: 'Bungee Shade', cursive;
+
+}
+
+
+
+.s4 {
+    position: absolute;
+    top: 1900px;
+    right: 800px;
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+    color: rgb(5, 4, 4);
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+
+
+.emb {
+    border: 5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: aqua;
+    font-size: 180px;
+    padding: 5%;
+    font-family: 'Italianno', cursive;
+}
+
+.s5 {
+    font-size: 200px;
+    font-family: 'Commissioner', sans-serif;
+    position: absolute;
+    top: 2600px;
+    left: 800px;
+    line-height: 50%;
+    text-transform: capitalize;
+
+}
+
+
+h3 {
+    text-transform: capitalize;
+    text-decoration: underline;
+    position: absolute;
+    top: 3400px;
+    left: 200px;
+    line-height: 50%;
+}
+
+.emi {
+    font-family: 'Frijole', cursive;
+    color: aqua;
+    font-size: 200px;
+}
+
+
+
+
+
+.spanlower {
+    font-size: 20px;
+}
+
+.spanlower2 {
+    font-size: 100px;
+}
+
+
+
+
+.line-1 {
+    height: 10px;
+    background: black;
+}
+
+
+
+
+
+.grad1 {
+    background-image: linear-gradient(to right, red, orange, aqua, yellow);
+    background-size: 400%;
+    animation: g-animation 5s infinite alternate;
+}
+
+@keyframes g-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+
+
+/*
+.rightside {
+    text-align: right;
+}
+
+.leftside {
+    text-align: left;
+}
+
+/*
+
+  .font {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 100px;
+    line-height: 300%;
+    text-transform: capitalize;
+    text-align: right;
+    font-weight: bolder;
+    margin-right: 0%;
+}
+
+
+font-family: 'Zilla Slab Highlight', cursive; - highlight
+
+
+
+
+
+
+font-family: 'Faster One', cursive; - fast
+
+
+
+
+
+
+
+em { 
+    color: rgba(204, 153, 14, 0.685);
+}
+
+
+
+
+.bl {
+    border: 1px solid rgb(0, 0, 0);
+    width: 26%
+}
+
+
+
+div.bl {
+    line-height: 2;
+
+}
+
+
+div {
+    margin-inline-start: 100px;
+    padding: 20px;
+    border-radius: 15px;
+  }

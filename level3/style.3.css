@@ -1,0 +1,43 @@
+
+
+
+/*
+em {
+    background-color: rgb(217, 228, 179);
+    color: rgb(0, 0, 0);
+}
+*/
+
+strong {
+    font-weight: bold;
+}
+
+.bl {
+    border: 10px solid rgb(0, 0, 0);
+    width: 26%
+}
+
+
+
+div.bl {
+    line-height: 2;
+
+}
+
+
+div {
+    margin-inline-start: 100px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+/*
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 35px;
+}
